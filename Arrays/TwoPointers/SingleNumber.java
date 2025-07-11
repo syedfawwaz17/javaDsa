@@ -10,12 +10,12 @@ import java.util.HashMap;
 public class SingleNumber {
     public static void main(String[] args) {
         int[] nums = {4, 1, 2, 1, 2};
-        Solution solution = new Solution();
+        Sol solution = new Sol();
         System.out.println("Single number is: " + solution.singleNumber(nums));
     }
 }
 
-class Solution {
+class Sol {
     public int singleNumber(int[] nums) {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int num : nums){
